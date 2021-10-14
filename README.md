@@ -53,6 +53,6 @@ sudo systemctl status obfsproxy
 sudo systemctl daemon-reload
 ```
 
-+ Check that 1443 and 2443 are listening with `netstat -plnt`
++ Check that 5110 and 5112 are listening with `netstat -plnt`
 
 + Create a user and private key for the VPN with `pivpn -add -o` then enter the desired username and password
